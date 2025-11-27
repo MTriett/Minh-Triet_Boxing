@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        Console.log("triet");
     }
 
     // Update is called once per frame
